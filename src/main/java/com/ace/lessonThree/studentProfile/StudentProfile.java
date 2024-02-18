@@ -1,4 +1,6 @@
-package com.ace.lessonThree;
+package com.ace.lessonThree.studentProfile;
+
+import com.ace.lessonThree.student.Student;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

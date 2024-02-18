@@ -1,4 +1,4 @@
-package com.ace.lessonThree;
+package com.ace.lessonThree.school;
 
 import java.util.List;
 

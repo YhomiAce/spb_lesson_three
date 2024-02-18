@@ -1,4 +1,4 @@
-package com.ace.lessonThree;
+package com.ace.lessonThree.student;
 
 import java.util.List;
 import java.util.stream.Collectors;
@@ -52,6 +52,7 @@ public class StudentService {
                 .collect(Collectors.toList());
     }
 
+    // @SuppressWarnings("null")
     public String deleteStudent(Integer id) {
         repository.deleteById(id);
         return "Student deleted successfully";

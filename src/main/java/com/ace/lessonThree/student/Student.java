@@ -1,9 +1,11 @@
-package com.ace.lessonThree;
+package com.ace.lessonThree.student;
 
 import java.time.LocalDateTime;
 
 import org.hibernate.annotations.CreationTimestamp;
 
+import com.ace.lessonThree.school.School;
+import com.ace.lessonThree.studentProfile.StudentProfile;
 import com.fasterxml.jackson.annotation.JsonBackReference;
 
 import jakarta.persistence.CascadeType;

@@ -1,7 +1,8 @@
-package com.ace.lessonThree;
+package com.ace.lessonThree.school;
 
 import java.util.List;
 
+import com.ace.lessonThree.student.Student;
 import com.fasterxml.jackson.annotation.JsonManagedReference;
 
 import jakarta.persistence.Entity;

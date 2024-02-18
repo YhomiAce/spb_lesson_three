@@ -1,4 +1,4 @@
-package com.ace.lessonThree;
+package com.ace.lessonThree.school;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

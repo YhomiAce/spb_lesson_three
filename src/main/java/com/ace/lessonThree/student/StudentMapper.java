@@ -1,6 +1,8 @@
-package com.ace.lessonThree;
+package com.ace.lessonThree.student;
 
 import org.springframework.stereotype.Service;
+
+import com.ace.lessonThree.school.School;
 
 @Service
 public class StudentMapper {
