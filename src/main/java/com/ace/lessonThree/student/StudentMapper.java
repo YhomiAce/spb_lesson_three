@@ -7,6 +7,9 @@ import com.ace.lessonThree.school.School;
 @Service
 public class StudentMapper {
     public Student toStudent(StudentDto dto) {
+        if(dto == null) {
+            throw new NullPointerException("The Student Dto should not be null");
+        }
         Student student = new Student();
         student.setAge(dto.age());
         student.setFirstname(dto.firstname());
@@ -22,8 +25,7 @@ public class StudentMapper {
     }
 
     public StudentResponseDto toStudentResponseDto(Student student) {
-        StudentResponseDto studentResponseDto = new StudentResponseDto(student.getFirstname(), student.getLastname(),
+        return new StudentResponseDto(student.getFirstname(), student.getLastname(),
                 student.getEmail(), student.getAge(), student.getScore());
-        return studentResponseDto;
     }
 }
